@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    background-color: darkslategray;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgb(74, 124, 124);
+
+}
+
+.card > h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0.5rem;
+}
+
+.card > a {
+    color: navy;
+}
